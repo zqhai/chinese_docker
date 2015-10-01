@@ -4,13 +4,17 @@
 
 使用 Docker Toolbox 来安装 Docker。Docker Toolbox 包含了如下的 Docker 工具：
 
- * 用户运行 Docker Machine 的二进制 `docker-machine` 包。
- * 用户运行 Docker Engine 的二进制 `docker` 包。
+ * 用于运行 Docker Machine 的二进制 `docker-machine` 包。
+ * 用于运行 Docker Engine 的二进制 `docker` 包。
  * Docker 的图形界面管理工具，Kitematic
  * 预先配置好的 Docker 命令行 shell 环境。
  * Oracle VM VirtualBox
  
-由于 Docker 进程使用的是 Linux 的内核特性，所以你不能在 windows 主机上直接运行 Docker。作为替代方案，你可以使用 `docker-machine` 在你的主机上来创建和添加 Docker VM。这时你的 Windows 系统中就有你创建的 Docker VM。
+由于 Docker 进程使用的是 Linux 的内核特性，所以你不能在 windows 主机上直接运行 Docker。作为替代方案，您可以使用 `docker-machine` 在你的主机上来创建和添加 Docker VM。这时,你的 Windows 系统中就有你创建的 Docker VM。
+
+Docker VM 是一个轻量级的 Linux 虚拟机，专门用来在 Windows 上运行 Docker 守护进程。当 Virtual Box 在内存中启动后，会先下载一个大约 24MB 的 ISO文件（boot2docker.iso），下载完成后，大约5S中内引导启动。
+
+##安装要求
 
 ＝＝＝
  
