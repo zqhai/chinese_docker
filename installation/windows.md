@@ -1,6 +1,19 @@
 #windows
 
->提示：这个版本的 Docker 不建议您使用 Boot2Docker 命令行，而青睐于使用 Docker Machine。使用 Docker Toolbox 来安装 Docker Machine 和其它的 Docker 工具。
+>提示：这个版本的 Docker 不建议您使用 Boot2Docker 命令行，而青睐于使用 Docker Machine。您可以使用 Docker Toolbox 来安装 Docker Machine 和其它的 Docker 工具。
+
+使用 Docker Toolbox 来安装 Docker。Docker Toolbox 包含了如下的 Docker 工具：
+
+ * 用户运行 Docker Machine 的二进制 `docker-machine` 包。
+ * 用户运行 Docker Engine 的二进制 `docker` 包。
+ * Docker 的图形界面管理工具，Kitematic
+ * 预先配置好的 Docker 命令行 shell 环境。
+ * Oracle VM VirtualBox
+ 
+由于 Docker 进程使用的是 Linux 的内核特性，所以你不能在 windows 主机上直接运行 Docker。作为替代方案，你可以使用 `docker-machine` 在你的主机上来创建和添加 Docker VM。这时你的 Windows 系统中就有你创建的 Docker VM。
+
+＝＝＝
+ 
 
 Docker 引擎使用的是Linux内核特性，所以我们需要在 Windows 上使用一个轻量级的虚拟机 (VM) 来运行 Docker。我们使用 Windows的Docker客户端来控制 Docker 虚拟化引擎的构建、运行和管理 。
 
