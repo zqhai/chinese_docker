@@ -1,6 +1,6 @@
 #windows
 
->提示：Docker 已经在windows7.1和windows 8上通过测试，当然它也可以在低版本的windows上使用。但是你的处理器必须支持硬件虚拟化。
+>提示：这个版本的 Docker 不建议您使用 Boot2Docker 命令行，而青睐于使用 Docker Machine。使用 Docker Toolbox 来安装 Docker Machine 和其它的 Docker 工具。
 
 Docker 引擎使用的是Linux内核特性，所以我们需要在 Windows 上使用一个轻量级的虚拟机 (VM) 来运行 Docker。我们使用 Windows的Docker客户端来控制 Docker 虚拟化引擎的构建、运行和管理 。
 
