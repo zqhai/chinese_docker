@@ -16,6 +16,19 @@ Docker VM 是一个轻量级的 Linux 虚拟机，专门用来在 Windows 上运
 
 ##安装要求
 
+你需要在运行 Win7.1、8、8.1 或更新版本的 Windows 电脑上运行 Docker ，Windows 10 暂时不支持。使用下边的方法可以查看你的 Windows 版本。
+
+1. 右击计算机，选择属性
+
+![images/win_ver.png](../images/win_ver.png)
+
+如果你使用的系统版本不支持，您可以考虑下升级您的操作系统。
+
+2. 你需要确认你的系统支持硬件虚拟化技术并且启用了虚拟化技术。
+
+###Windows 8 或者8.1
+  
+
 ＝＝＝
  
 
